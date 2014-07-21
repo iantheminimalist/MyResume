@@ -29,6 +29,7 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+    
 }
 .navbar-wrapper .navbar .container {
   width: auto;
@@ -46,7 +47,7 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 20;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 }
 
 /* Declare heights because of positioning of img element */
