@@ -959,6 +959,21 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+/*Opacity added*/
+.img-circle.opacity {
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+ 	-webkit-transition: opacity 1s linear;
+	}	
+	
+.img-circle.opacity:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+ 	-webkit-transition: opacity 1s linear;
+	}
+
+/*Opacity added*/
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
