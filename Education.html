@@ -70,7 +70,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
+          <ul class="nav nav-sidebar" id="top-nav">
             <li><a href="#MyEdu">Overview</a></li>
             <li><a href="#CollegeMA">College (Majors)</a></li>
             <li><a href="#CollegeSM">College (Secondary Majors)</a></li>
@@ -551,5 +551,19 @@ The Queue Data Structure, Heaps, Hash Tables, Graphs in computer science, Two-th
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/docs.min.js"></script>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+        <script src="dist/js/vendor/bootstrap.min.js"></script>
+
+        <script src="dist/js/plugins.js"></script>
+        <script src="dist/js/main.js"></script>
+        <script>
+             $('#top-nav').onePageNav({
+                 currentClass: 'active',
+                 changeHash: true,
+                 scrollSpeed: 1200
+            });
+        </script>
   </body>
 </html>
