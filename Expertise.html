@@ -39,7 +39,7 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only" >Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -49,28 +49,47 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="Home.html">Home</a></li>
-                <li  class="active"><a href="Expertise.html">Expertise</a></li>
-                  <li><a href="#">Experience</a></li>
-                  <li><a href="Education.html">Education</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="Contact.html">My Contact</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Others</li>
-                    <li><a href="#">Hobbies &amp; Interests</a></li>
-                    <li><a href="#">Other Projects</a></li>
-                    <!-- <li><a href="#">One more separated link</a></li> -->
-                  </ul>
-                </li>
+                <li><a href="trial.html">About Me</a></li>
+                <li class="active"><a href="Expertise.html">Expertise</a></li>
+                <li><a href="Education.html">Education</a></li>
+                
               </ul>
             </div>
       </div>
     </div>
       </div>
+<br /> <br /><br />
+<br /> <br /><br />
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
+    <div class="container marketing">
 
+      <!-- Three columns of text below the carousel -->
+      <div class="row" id="row">
+        <div class="col-lg-4">
+          <img class="img-circle opacity" src="img/frontEndDev1.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Front-End Development</h2>
+          <p>HTML5, CSS3, and Javascript with working knowledge of Bootstrap and other frameworks.</p>
+          <p><a  href="#FrontEnd" class="btn btn-default" role="link">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle opacity" src="img/backEndDev.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Back-end Development</h2>
+          <p>PHP, Apache, Oracle SQL and MySQL...etc</p>
+          <p><a href="#BackEnd" class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle opacity" src="img/SoftwareDev.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Software Engineering</h2>
+          <p>Entity-Relationship Diagrams, SDLC, Use-Case, Waterfall model...etc
+</p>
+          <p><a href="#SoftEnd" class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+</div>  
+  
 
     <!-- Carousel ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -85,7 +104,7 @@
           <img src="img/webdesign.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1 >Front-End Development</h1><p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1 id="front">Front-End Development</h1><p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -116,69 +135,42 @@
 
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle opacity" src="img/frontEndDev1.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Front-End Development</h2>
-          <p>HTML5, CSS3, and Javascript with working knowledge of Bootstrap and other frameworks.</p>
-          <p><a  href="#FrontEnd" class="btn btn-default" role="link">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle opacity" src="img/backEndDev.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Back-end Development</h2>
-          <p>PHP, Apache, Oracle SQL and MySQL...etc</p>
-          <p><a href="#BackEnd" class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle opacity" src="img/SoftwareDev.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Software Engineering</h2>
-          <p>Entity-Relationship Diagrams, SDLC, Use-Case, Waterfall model...etc
-</p>
-          <p><a href="#SoftEnd" class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-</div>  
-      
+    
     <div class="container marketing">        
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="FrontEnd">
         <div class="col-md-7">
-          <h2 class="featurette-heading" id="FrontEnd" >Front-End Development <span class="text-muted"></span></h2>
+          <h2 class="featurette-heading"  >Front-End Development <span class="text-muted"></span></h2>
           <p class="lead"> I have a strong understanding HTML5 and CSS3 and Javascript, and I have adapted to use frameworks such as Bootstrap, WordPress or Joombla.<br/><br/> I am currently self-learning extenions such as Node.js and LESS.js with the use of coffeescript other extensions as well as gaining More knowledge on WordPress and Joombla. However, I am not a graphics designer. </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive"  img src="img/ForntEndDes.jpg" alt="Generic placeholder image">
         </div>
+                  <p class="pull-right"><a href="#row">Back to top</a></p>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="BackEnd">
         <div class="col-md-5"> 
             <br /><br /><br/><br/>
           <img class="featurette-image img-responsive" img src="img/wed.jpg" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading" id="BackEnd" >Back-End Development <span class="text-muted"></span></h2>
+          <h2 class="featurette-heading"  >Back-End Development <span class="text-muted"></span></h2>
           <p class="lead"> Back-End Developing is my EXPERTISE. My expertise ranges from understanding of Apache HTTP Server(PHP included) and SQL Databases (SQL and MySQL...yes there is a difference). <br/><br/>I have a great deal of knowledge using an open source materials such as Xampp and MySQL. <br/><br/>I also have a working knowledge of MVC (Model-View-Controller) and CMS (Content Management System). I am currently learning Ruby on Rails and PHP IDE's such as CakePHP and PHPStorm. I am  particularly familiar with editors with Dreamweaver but not limited to using open source material. I am also curently selfing learning MongoDB and NoSQL.</p>
         </div>
+                <p class="pull-right"><a href="#row">Back to top</a></p>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider"  id="SoftEnd">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading" id="SoftEnd">Software Engineering <span class="text-muted"></span></h2>
+          <h2 class="featurette-heading">Software Engineering <span class="text-muted"></span></h2>
           <p class="lead"> I believe with a Bachelors Degree in Informations Systems, I have a excellent working knowledge of Systems analysis and design and Software development process. With this, I am Familiar with Software development methodologies such as Frameworking, SDLC,  waterfall model and spiral model. I use several UML's such as ERD's, Use-Case Diagrams, Activity Diagrams, Class Diagrams, Activity Diagrams, Sequence Diagrams and More</p>
         </div>
         <div class="col-md-5">
@@ -193,7 +185,7 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="pull-right"><a href="#row">Back to top</a></p>
         <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
@@ -206,5 +198,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/docs.min.js"></script>
+              <script src="dist/js/plugins.js"></script>
+        <script src="dist/js/main.js"></script>
+              <script>
+             $('#row').onePageNav({
+                 scrollSpeed: 1200
+            });
+        </script>
   </body>
 </html>
