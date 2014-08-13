@@ -115,12 +115,12 @@ h2{
 }
 
 #second .bg{
-	background: url(../../../../img/parallax2/bottombadgew.png) 50% 0 no-repeat fixed;
+	background: url(../../../../img/parallax2/label1.png) 100% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 900px;
+	width: 1000px;
 	z-index: 200;
 }
 
@@ -151,6 +151,7 @@ h2{
 	background: url(../../../../img/parallax2/bluew.png) 50% 0 repeat fixed;
 	color: white;
 	height: 650px;
+    margin: 0 auto;
 	padding: 100px 0 0 0;	
 }
 
