@@ -11,7 +11,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 @charset "utf-8";
 /* CSS Document */
-
+/*
 body{
 	margin: 0;
 	min-width: 980px;
@@ -68,28 +68,39 @@ h2{
 }
 
 #nav1{
-	list-style: none;
-	position: fixed;
-    top: 50px;
-	right: 20px;
+    padding: 20px;
+	margin:  0 0 auto 0 ;
 }
 
-#nav1 li{
-	margin: 0 0 15px 0;	
+#nav1 a{
+		font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;
 }
-
+*/
 #header, #intro, #second{
 	width: 100%;
 }
-
+/******************************************* #INTRO***************************************************************************/
 #intro{
-	background:url(../../../../img/parallax2/desk.png) 50% 0 no-repeat fixed;
+	background:url(../../../../img/parallax2/desk.png) 100% 0 no-repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
 }
-
+#intro .bgIntro{
+	background: url(../../../../img/parallax2/intro.png) 100% 0 no-repeat fixed;
+	height: 550px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+    float: center;
+	width: 1200px;
+	z-index: 200;
+}
+/******************************************* #INTRO ***************************************************************************/
 #intro3{
 	background:url(../../../../img/parallax2/firstBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
@@ -98,32 +109,73 @@ h2{
 	padding: 0;
 }
 
+/******************************************* #THIRD ***************************************************************************/
 #third1{
 	background: url(../../../../img/parallax2/red.png) 50% 0 repeat fixed;
 	color: white;
-	height: 650px;
+	height: 850px;
 	padding: 100px 0 0 0;	
 }
 
+#third1 .bg2{
+	background: url(../../../../img/parallax2/greeting.png) 100% 0 no-repeat fixed;
+	height: 550px;
+	margin: 0 auto;
+	padding: 0;
+ 
+	position: absolute;
+	width: 1200px;
+	z-index: 200;
+}
+
+/******************************************* #SECOND ***************************************************************************/
 #second{
-	background: url(../../../../img/parallax2/secondBG.jpg) 50% 0 no-repeat fixed;
+	background: url(../../../../img/parallax2/skill.png) 50% 0 no-repeat fixed;
 	color: white;
-	height: 1300px;
+	height: 900px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
 }
-
+/******************************************* #SECOND BG ***************************************************************************/
 #second .bg{
-	background: url(../../../../img/parallax2/label1.png) 100% 0 no-repeat fixed;
-	height: 1300px;
+	background: url(../../../../img/parallax2/webDe.png) 100% 0 no-repeat fixed;
+	height: 500px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
 	width: 1000px;
 	z-index: 200;
 }
+    #second .bg5{
+	background: url(../../../../img/parallax2/backend.png) 100% 0 no-repeat fixed;
+	height: 750px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 200;
+}
 
+/******************************************* #BLUE ***************************************************************************/
+#third2{
+	background: url(../../../../img/parallax2/bluew.png) 50% 0 repeat fixed;
+	color: white;
+	height: 650px;
+	padding: 100px 0 0 0;	
+}
+
+#third2 .bg1{
+	background: url(../../../../img/parallax2/talents.png) 100% 0 no-repeat fixed;
+	height: 550px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 200;
+}
+
+/******************************************* #SECOND BG1 ***************************************************************************/
 /*
  #second .bg1{
     background: url(../../../../img/parallax2/bluebox.png) 50% 0 no-repeat fixed; 
@@ -140,6 +192,7 @@ h2{
 }
 */
 
+/******************************************* #Third  ***************************************************************************/
 #third{
 	background: url(../../../../img/parallax2/website2.png)  0 no-repeat fixed;
 	color: white;
@@ -147,14 +200,7 @@ h2{
 	padding: 100px 0 0 0;	
 }
 
-#blue{
-	background: url(../../../../img/parallax2/bluew.png) 50% 0 repeat fixed;
-	color: white;
-	height: 650px;
-    margin: 0 auto;
-	padding: 100px 0 0 0;	
-}
-
+/******************************************* #FIFTH ***************************************************************************/
 #fifth{
 	background: url(../../../../img/parallax2/turqu.png) 70% 0 repeat fixed;
 	height: 100%;
@@ -162,7 +208,7 @@ h2{
 	padding: 40px 0 0 0;
     	color: white;
 }
-
+/******************************************* #STORY ***************************************************************************/
 .story{
 	margin: 0 auto;
 	min-width: 980px;
