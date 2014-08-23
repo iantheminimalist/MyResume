@@ -41,7 +41,7 @@ a.nav-expander.fixed {
     right: 20em;
 }
 
-nav {
+nav123 {
   background: #2d2f33;
   display: block;
   height: 100%;
@@ -59,7 +59,7 @@ nav {
   -o-transition: right 0.3s ease-in-out 0s;
 
 }
-.nav-expanded nav {
+.nav-expanded nav123 {
   right: 0;
 }
 
@@ -138,7 +138,7 @@ body.nav-expanded {
   font-weight: normal;
   line-height: 1;
   text-transform: none;
-  content: '\f105';
+  content: '\f104';
 }
 
 .main-menu li > a > span.icon {

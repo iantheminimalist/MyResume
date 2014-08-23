@@ -84,19 +84,21 @@ h2{
 }
 /******************************************* #INTRO***************************************************************************/
 #intro{
-	background:url(../../../../img/parallax2/desk.png) 100% 0 no-repeat fixed;
+	background:url(../../../../img/parallax2/desk.png) 100% 0 repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
 }
 #intro .bgIntro{
-	background: url(../../../../img/parallax2/intro.png) 100% 0 no-repeat fixed;
-	height: 550px;
+	background: url(../../../../img/parallax2/introBadge.png) 100% 0 no-repeat fixed;
+	height: 500px;
 	margin: 0 auto;
 	padding: 0;
-	position: absolute;
+	position: inherit;
     float: center;
+    right: 100px;
+    top: 100px;
 	width: 1200px;
 	z-index: 200;
 }
@@ -113,16 +115,16 @@ h2{
 #third1{
 	background: url(../../../../img/parallax2/red.png) 50% 0 repeat fixed;
 	color: white;
-	height: 850px;
+	height: 450px;
 	padding: 100px 0 0 0;	
 }
 
 #third1 .bg2{
 	background: url(../../../../img/parallax2/greeting.png) 100% 0 no-repeat fixed;
-	height: 550px;
+	height: 350px;
 	margin: 0 auto;
 	padding: 0;
- 
+ top: inherit;
 	position: absolute;
 	width: 1200px;
 	z-index: 200;
@@ -139,17 +141,17 @@ h2{
 }
 /******************************************* #SECOND BG ***************************************************************************/
 #second .bg{
-	background: url(../../../../img/parallax2/webDe.png) 100% 0 no-repeat fixed;
-	height: 500px;
+	background: url(../../../../img/parallax2/badge-002-1.png) 100% 0 no-repeat fixed;
+	height: 350px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 1000px;
+	width: 1200px;
 	z-index: 200;
 }
     #second .bg5{
-	background: url(../../../../img/parallax2/backend.png) 100% 0 no-repeat fixed;
-	height: 750px;
+	background: url(../../../../img/parallax2/badge-002-2.png) 100% 0 no-repeat fixed;
+	height: 450px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
@@ -161,13 +163,13 @@ h2{
 #third2{
 	background: url(../../../../img/parallax2/bluew.png) 50% 0 repeat fixed;
 	color: white;
-	height: 650px;
+	height: 1000px;
 	padding: 100px 0 0 0;	
 }
 
 #third2 .bg1{
-	background: url(../../../../img/parallax2/talents.png) 100% 0 no-repeat fixed;
-	height: 550px;
+	background: url(../../../../img/parallax2/badge-001.png) 100% 0 no-repeat fixed;
+	height: 850px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
